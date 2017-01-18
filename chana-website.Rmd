@@ -1,35 +1,29 @@
 ---
-title: "chana.website"
+title: "matt chana"
 output: html_document
 ---
 
 ***
 #####internet links for Matt Chana
-[Twitter](https://twitter.com/GoChanaGo)
-
 [Github](https://github.com/rancherobeans)
 
 [Kaggle](https://www.kaggle.com/rancherobeans)
 
-[Medium](https://medium.com/@RancheroBeans)
-
-[Quora](https://www.quora.com/profile/Matt-Chana-1)
-
 [LinkedIn](https://www.linkedin.com/in/matthewchana)
 
-[Meetup](https://www.meetup.com/members/14467262/)
+[Twitter](https://twitter.com/GoChanaGo)
 
 ***  
 
-##Viridis colors
+
 ```{r include = FALSE}
 library(viridis)
 library(jpeg)
 ```
 
 ```{r}
-img <- readJPEG("remote.jpg")
+img <- readJPEG("web.jpg")
 rv <- rev(img)
-m <- matrix(rv, nrow = 551, ncol = 319, byrow = TRUE)
+m <- matrix(rv, nrow = 582, ncol = 363, byrow = TRUE)
 image(z = m, col = viridis(200, option = "A"))
 ```
