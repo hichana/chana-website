@@ -19,8 +19,6 @@ output: html_document
 
 [Meetup](https://www.meetup.com/members/14467262/)
 
-[new-page](/new-page/)
-
 ***  
 
 ##Viridis colors
