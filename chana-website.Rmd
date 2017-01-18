@@ -4,7 +4,8 @@ output: html_document
 ---
 
 ***
-#####internet links for Matt Chana
+##### internet links for Matt Chana:
+
 [Github](https://github.com/rancherobeans)
 
 [Kaggle](https://www.kaggle.com/rancherobeans)
@@ -15,6 +16,9 @@ output: html_document
 
 ***  
 
+email: hichana@gmail.com
+
+***
 
 ```{r include = FALSE}
 library(viridis)
@@ -22,7 +26,7 @@ library(jpeg)
 ```
 
 ```{r}
-img <- readJPEG("web.jpg")
+img <- readJPEG("webcam.jpg")
 rv <- rev(img)
 m <- matrix(rv, nrow = 582, ncol = 363, byrow = TRUE)
 image(z = m, col = viridis(200, option = "A"))
