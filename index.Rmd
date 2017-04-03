@@ -3,6 +3,25 @@ title: "Matt Chana"
 output: html_document
 ---
 
+```{r include = FALSE}
+library(viridis)
+library(jpeg)
+```
+
+```{r}
+# load Matt
+img <- readJPEG("matt.jpg")
+
+# flip Matt
+rv <- rev(img)
+
+# reshape Matt for heatmap aspect ratio
+m <- matrix(rv, nrow = 582, ncol = 363, byrow = TRUE)
+
+# make Matt into heatmap
+image(z = m, col = viridis(200, option = "A"))
+```
+
 ***
 ##### Profiles:
 
@@ -25,25 +44,3 @@ output: html_document
 email: hichana@gmail.com
 
 ***
-
-##### Matt in code:
-
-```{r include = FALSE}
-library(viridis)
-library(jpeg)
-```
-
-```{r}
-# load Matt
-img <- readJPEG("matt.jpg")
-
-# flip Matt
-rv <- rev(img)
-
-# reshape Matt for heatmap aspect ratio
-m <- matrix(rv, nrow = 582, ncol = 363, byrow = TRUE)
-
-# make Matt into heatmap
-# image(z = m, col = viridis(200, option = "A"))
-image(z = m, main="Matt", col = viridis(200, option = "A"))
-```
