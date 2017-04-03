@@ -1,0 +1,49 @@
+---
+title: "Matt Chana"
+output: html_document
+---
+
+***
+##### Profiles:
+
+[Github](https://github.com/rancherobeans)
+
+[Stack Overflow](http://stackoverflow.com/users/5179129/rancherobeans?tab=profile)
+
+[LinkedIn](https://www.linkedin.com/in/matthewchana)
+
+***
+##### Projects:
+
+[Stroop Effect Investigation](https://github.com/rancherobeans/udacity/blob/master/P1/P1-Stroop-Effect-Investigation.ipynb): Statistical investigation into a data set involving the Stroop Effect. In psychology, the Stroop effect is a demonstration of interference in the reaction time of a task.
+
+[Lahman Baseball Database Investigation](https://github.com/rancherobeans/udacity/blob/master/P2/project/P2-Lahman-Baseball-Database-Investigation.ipynb): A look at interesting correlations found in a comprehensive set of baseball statistics.
+
+***  
+##### Contact:
+
+email: hichana@gmail.com
+
+***
+
+##### Matt in code:
+
+```{r include = FALSE}
+library(viridis)
+library(jpeg)
+```
+
+```{r}
+# load Matt
+img <- readJPEG("webcam.jpg")
+
+# flip Matt
+rv <- rev(img)
+
+# reshape Matt for heatmap aspect ratio
+m <- matrix(rv, nrow = 582, ncol = 363, byrow = TRUE)
+
+# make Matt into heatmap
+# image(z = m, col = viridis(200, option = "A"))
+image(z = m, main="Matt", col = viridis(200, option = "A"))
+```
