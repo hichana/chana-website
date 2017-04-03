@@ -35,7 +35,7 @@ library(jpeg)
 
 ```{r}
 # load Matt
-img <- readJPEG("webcam.jpg")
+img <- readJPEG("matt.jpg")
 
 # flip Matt
 rv <- rev(img)
