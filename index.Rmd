@@ -2,15 +2,19 @@
 title: "Matt Chana"
 output: html_document
 ---
+***  
+##### Contact:
+
+email: `matthewchana@gmail.com`
 
 ***
 ##### Profiles:
 
+[Udacity](https://profiles.udacity.com/p/6660788570)
+
 [LinkedIn](https://www.linkedin.com/in/matthewchana)
 
 [Github](https://github.com/rancherobeans)
-
-[Stack Overflow](http://stackoverflow.com/users/5179129/rancherobeans?tab=profile)
 
 ***
 ##### Projects:
@@ -30,11 +34,6 @@ output: html_document
 
 * A statistical investigation into the classical Stroop Effect Test experiment in psychology
 * Constructed a dependent t-test for paired samples hypothesis test using Python’s Scipy framework
-
-***  
-##### Contact:
-
-email: matthewchana@gmail.com
 
 ***
 ##### Plot:
