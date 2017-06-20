@@ -23,17 +23,16 @@ email: `matthewchana@gmail.com`
 * A guide to cleaning and drawing insights from OpenStreetMap data of the New Orleans watershed
 * Parsed XML data with Python scripting and gathered insights using SQL queries
 
+[Lahman Baseball Database Investigation](https://github.com/rancherobeans/udacity/blob/master/P2/inferential_stats_project/P2-Lahman-Baseball-Database-Investigation.ipynb): 
+
+* A statistical investigation into the classical Stroop Effect Test experiment in psychology
+* Constructed a dependent t-test for paired samples hypothesis test using Python’s Scipy framework
 
 [Stroop Effect Investigation](https://github.com/rancherobeans/udacity/blob/master/P1/P1-Stroop-Effect-Investigation.ipynb):
 
 * A novel exploration of MLB statistics comparing measures of success with field position adaptability
 * Formulated an inferential statistical model with visualizations using Pandas, Numpy and Seaborn
 
-
-[Lahman Baseball Database Investigation](https://github.com/rancherobeans/udacity/blob/master/P2/project/P2-Lahman-Baseball-Database-Investigation.ipynb): 
-
-* A statistical investigation into the classical Stroop Effect Test experiment in psychology
-* Constructed a dependent t-test for paired samples hypothesis test using Python’s Scipy framework
 
 ***
 ##### Plot:
