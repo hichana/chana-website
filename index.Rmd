@@ -10,8 +10,6 @@ email: `matthewchana@gmail.com`
 ***
 ##### Profiles:
 
-[Udacity](https://profiles.udacity.com/p/6660788570)
-
 [LinkedIn](https://www.linkedin.com/in/matthewchana)
 
 [Github](https://github.com/rancherobeans)
